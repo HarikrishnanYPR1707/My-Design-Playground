@@ -1,0 +1,26 @@
+.main {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    margin: 1vw 0;
+}
+
+.logo a {
+    font-size:3vw;
+    font-weight: 900;
+    cursor: default;
+}
+
+.logo a span:nth-child(1) {
+    color: #fff;
+    border-bottom: dashed 2px #fff;
+}
+
+.logo a span:nth-child(2) {
+    color: #ec4e39;
+    border-bottom: dashed 2px #ec4e39;
+}
