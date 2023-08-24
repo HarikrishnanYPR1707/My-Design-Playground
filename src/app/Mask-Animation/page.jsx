@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import style from "./styles.module.css";
 import useMousePosition from "../../app/utils/useMousePosition";
 import { motion } from "framer-motion";
-import Navbar from '@/components/Navbar/index';
+import Navbar from "@/components/Navbar/index";
 
 const page = () => {
 	const [isHOvered, setIsHOvered] = useState(false);
