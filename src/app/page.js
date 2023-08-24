@@ -9,16 +9,16 @@ export default function Home() {
       <Navbar />
       <div className="flex h-[10vh] flex-col items-center justify-center text-[30px] text-[#ec4e39]">
         <Link
-          href="Mask-Animation/"
+          href="Mask-Cursor-Animation/"
           className="flex items-center justify-center"
         >
-          Mask Animation <FaExternalLinkAlt className="ml-2" />
+          Mask Cursor Animation <FaExternalLinkAlt className="ml-2" />
         </Link>
         <Link
-          href="Blob-Hover-Animation/"
+          href="Background-Hover-Animation/"
           className="flex items-center justify-center"
         >
-          BLOG HOVER ANIMATION <FaExternalLinkAlt className="ml-2" />
+          Background Hover Animation <FaExternalLinkAlt className="ml-2" />
         </Link>
       </div>
     </>
