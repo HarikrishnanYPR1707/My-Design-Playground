@@ -20,6 +20,12 @@ export default function Home() {
         >
           Background Hover Animation <FaExternalLinkAlt className="ml-2" />
         </Link>
+        <Link
+          href="Hacker-Text-Animation/"
+          className="flex items-center justify-center"
+        >
+          Hacker Text Animation <FaExternalLinkAlt className="ml-2" />
+        </Link>
       </div>
     </>
   );
