@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="flex h-[10vh] flex-col items-center justify-center text-[30px] text-[#ec4e39]">
+      <div className="mt-10 flex h-[10vh] flex-col items-center justify-center text-[30px] text-[#ec4e39]">
         <Link
           href="Mask-Cursor-Animation/"
           className="flex items-center justify-center"
@@ -25,6 +25,12 @@ export default function Home() {
           className="flex items-center justify-center"
         >
           Hacker Text Animation <FaExternalLinkAlt className="ml-2" />
+        </Link>
+        <Link
+          href="ImageCarousel/"
+          className="flex items-center justify-center"
+        >
+          Image Carousel <FaExternalLinkAlt className="ml-2" />
         </Link>
       </div>
     </>
