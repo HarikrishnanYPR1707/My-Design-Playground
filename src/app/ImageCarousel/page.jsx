@@ -1,7 +1,9 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import { RxDotFilled } from "react-icons/rx";
 
 const page = () => {
 
@@ -49,6 +51,13 @@ const page = () => {
 			</div>
 			<div className="hidden group-hover:block rounded-full bg-black/20 text-white absolute top-[50%] -translate-x-0 translate-y-[-50%] right-14 text-2xl p-2 cursor-pointer" onClick={nextSlide}>
 				<BsChevronCompactRight size={30} />
+			</div>
+			<div className="flex top-5 justify-center py-2">
+				{slides.map((slide, slideIndex) => (
+					<div key={slideIndex} onClick={() => setCurrentIndex(slideIndex)} className="text-2xl text-white cursor-pointer">
+						<RxDotFilled />
+					</div>
+				))}
 			</div>
 		</div>
 	);
