@@ -32,6 +32,12 @@ export default function Home() {
         >
           Image Carousel <FaExternalLinkAlt className="ml-2" />
         </Link>
+        <Link
+          href="ImageRevealHoverAnimation/"
+          className="flex items-center justify-center"
+        >
+          Image Reveal Hover Animation <FaExternalLinkAlt className="ml-2" />
+        </Link>
       </div>
     </>
   );
