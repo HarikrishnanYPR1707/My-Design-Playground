@@ -6,7 +6,7 @@ const getWindowSize = () => {
     const { innerWidth, innerHeight } = window;
     return { innerWidth, innerHeight };
   }
-  return { innerWidth: 1024, innerHeight: 1024 };
+  return { innerWidth: 1030, innerHeight: 1030 };
 };
 
 export default function useWindowSize() {
