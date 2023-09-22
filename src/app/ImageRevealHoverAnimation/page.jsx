@@ -17,10 +17,11 @@ const page = () => {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
+            {/* Text Container */}
             <div className={style.textContainer}>
-                {/* Text Container */}
                 <p>Hover To Reveal</p>
             </div>
+            {/* Image Container */}
             <motion.div
                 className={style.imageContainer}
                 animate={{
@@ -32,9 +33,7 @@ const page = () => {
                     duration: 0.75,
                     // delay: 0.1
                 }}
-            >
-                {/* Image Container */}
-            </motion.div>
+            />
         </div>
     )
 }
