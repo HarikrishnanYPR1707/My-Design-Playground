@@ -12,7 +12,7 @@ const index = () => {
 
   return (
     <>
-      {(innerWidth >= 767) ? (
+      {(innerWidth > 1024) ? (
         <>
           <Link
             href="/"

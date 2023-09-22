@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <>
-      {innerWidth <= 767 ? (
+      {innerWidth <= 1024 ? (
         <>
           <NotForMobileDevice />
         </>
