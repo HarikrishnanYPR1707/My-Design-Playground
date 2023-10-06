@@ -47,7 +47,14 @@ export default function Home() {
               href="ImageRevealHoverAnimation/"
               className="flex items-center justify-center rounded-xl px-7 py-3 duration-700 hover:bg-[#2e2e2e]"
             >
-              Image Reveal Hover Animation{" "}
+              Image Reveal Hover Animation
+              <FaExternalLinkAlt className="ml-2" />
+            </Link>
+            <Link
+              href="GridHoverEffect/"
+              className="flex items-center justify-center rounded-xl px-7 py-3 duration-700 hover:bg-[#2e2e2e]"
+            >
+              Grid Hover Effect
               <FaExternalLinkAlt className="ml-2" />
             </Link>
           </div>
