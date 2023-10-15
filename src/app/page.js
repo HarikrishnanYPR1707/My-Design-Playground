@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Navbar from "@/components/Navbar/index";
 import NotForMobileDevice from "@/components/NotForMobileDevice/Nfmd";
 import Link from "next/link";
@@ -18,7 +17,7 @@ export default function Home() {
       ) : (
         <>
           <Navbar />
-          <div className="mt-10 grid grid-cols-3 gap-4 px-10 text-[30px] text-[#ec4e39]">
+          <div className="mt-10 grid grid-cols-3 gap-4 px-10 text-[20px] text-[#ec4e39]">
             <Link
               href="Mask-Cursor-Animation/"
               className="flex items-center justify-center rounded-xl px-7 py-3 duration-700 hover:bg-[#2e2e2e]"
