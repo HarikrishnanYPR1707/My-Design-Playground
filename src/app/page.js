@@ -56,6 +56,13 @@ export default function Home() {
               Grid Hover Effect
               <FaExternalLinkAlt className="ml-2" />
             </Link>
+            <Link
+              href="NavbarEffect/"
+              className="flex items-center justify-center rounded-xl px-7 py-3 duration-700 hover:bg-[#2e2e2e]"
+            >
+              Navbar Effect
+              <FaExternalLinkAlt className="ml-2" />
+            </Link>
           </div>
         </>
       )}

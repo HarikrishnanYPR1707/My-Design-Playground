@@ -1,0 +1,13 @@
+@mixin flexCenter($flexDirection) {
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  color: white;
+  font-size: 50px;
+  height: 100vh;
+  @include flexCenter(column);
+}
