@@ -5,9 +5,16 @@
   align-items: center;
 }
 
-.main {
-  color: white;
-  font-size: 50px;
-  height: 100vh;
-  @include flexCenter(column);
+.header {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+
+  .menu {
+    position: relative;
+    height: 550px;
+    width: 380px;
+    background-color: #ec4e39;
+    border-radius: 25px;
+  }
 }
