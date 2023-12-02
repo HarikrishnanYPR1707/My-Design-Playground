@@ -6,7 +6,7 @@ import styles from "./page.module.scss";
 
 const page = () => {
   const paragraph =
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error laboriosam unde tempore itaque, in laudantium consectetur iusto facilis. Aliquam atque, quia porro amet aut fuga!";
+    "The vibrant sunset painted the sky with hues of orange and pink, casting a warm glow over the tranquil landscape.";
 
   return (
     <main className={styles.container}>
