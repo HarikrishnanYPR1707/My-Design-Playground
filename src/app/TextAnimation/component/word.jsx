@@ -31,9 +31,10 @@ const word = ({ value }) => {
 const Word = ({ children, range, progress }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
-    <motion.span style={{ opacity }} className={styles.word}>
-      {children}
-    </motion.span>
+    <span className={styles.word}>
+      <span className={styles.shadow}>{children}</span>
+      <motion.span style={{ opacity }}>{children}</motion.span>
+    </span>
   );
 };
 
