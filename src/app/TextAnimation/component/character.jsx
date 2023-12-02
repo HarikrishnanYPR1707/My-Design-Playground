@@ -29,11 +29,32 @@ const word = ({ value }) => {
 };
 
 const Word = ({ children, range, progress }) => {
+  const characters = children.split("");
+  const amount = range[1] - range[0];
+  const step = amount / children.length;
+  return (
+    <span className={styles.word}>
+      {characters.map((character, i) => {
+        const start = range[0] + step * i;
+        const end = range[0] + step * (i + 1);
+        console.log([start, end]);
+        return (
+          <Character key={i} range={[start, end]} progress={progress}>
+            {character}
+          </Character>
+        );
+      })}
+    </span>
+  );
+};
+
+const Character = ({ children, range, progress }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
-    <motion.span style={{ opacity }} className={styles.word}>
-      {children}
-    </motion.span>
+    <span>
+      <span className={styles.shadow}>{children}</span>
+      <motion.span style={{ opacity }}>{children}</motion.span>
+    </span>
   );
 };
 
