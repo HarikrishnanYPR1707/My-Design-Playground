@@ -11,8 +11,10 @@ const page = () => {
   return (
     <main className={styles.container}>
       <div style={{ height: "100vh" }}></div>
-      {/* <Paragraph value={paragraph} /> */}
-      {/* <Word value={paragraph} /> */}
+      <Paragraph value={paragraph} />
+      <div style={{ height: "100vh" }}></div>
+      <Word value={paragraph} />
+      <div style={{ height: "100vh" }}></div>
       <Character value={paragraph} />
       <div style={{ height: "100vh" }}></div>
     </main>
