@@ -70,6 +70,13 @@ export default function Home() {
               Text Animation
               <FaExternalLinkAlt className="ml-2" />
             </Link>
+            <Link
+              href="ImageGalleryParallaxScroll/"
+              className="flex items-center justify-center rounded-xl px-7 py-3 duration-700 hover:bg-[#2e2e2e]"
+            >
+              Image Gallery Parallax Scroll
+              <FaExternalLinkAlt className="ml-2" />
+            </Link>
           </div>
         </>
       )}
