@@ -1,4 +1,4 @@
-const { useEffect } = require("react");
+const { useEffect, useState } = require("react");
 
 const useWindowDimension = () => {
   const [dimension, setDimension] = useState({ width: 0, height: 0 });
@@ -17,7 +17,7 @@ const useWindowDimension = () => {
     return () => {
       window.removeEventListener("resize", updateDimention);
     };
-  });
+  }, []);
 
   return dimension;
 };
