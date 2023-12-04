@@ -1,17 +1,16 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 
 "use client";
-import React from "react";
-import { FaHome } from "react-icons/fa";
+import useWindowDimension from "@/app/utils/useWindowDimension";
 import Link from "next/link";
-import useWindowSize from "@/app/utils/useWindowSize";
+import { FaHome } from "react-icons/fa";
 
 const index = () => {
-  const { innerWidth, innerHeight } = useWindowSize();
+  const { width, height } = useWindowDimension();
 
   return (
     <>
-      {innerWidth > 1024 ? (
+      {width > 1024 ? (
         <>
           <Link
             href="/"

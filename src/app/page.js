@@ -3,14 +3,14 @@ import Navbar from "@/components/Navbar/index";
 import NotForMobileDevice from "@/components/NotForMobileDevice/Nfmd";
 import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import useWindowSize from "@/app/utils/useWindowSize";
+import useWindowDimension from "./utils/useWindowDimension";
 
 export default function Home() {
-  const { innerWidth, innerHeight } = useWindowSize();
+  const { width, height } = useWindowDimension();
 
   return (
     <>
-      {innerWidth <= 1024 ? (
+      {width <= 1024 ? (
         <>
           <NotForMobileDevice />
         </>
