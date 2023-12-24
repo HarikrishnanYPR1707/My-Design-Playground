@@ -16,7 +16,10 @@ module.exports = {
         "space-mono": ["Space Mono", "monospace"],
       },
       animation: {
-        "spin-slow": "spin 3s linear infinite",
+        "spin-slow": "spin 3.8s linear infinite",
+      },
+      backgroundImage: {
+        myImage: "url('./public/myImage.jpg')",
       },
     },
   },
