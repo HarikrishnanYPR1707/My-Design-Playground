@@ -77,6 +77,13 @@ export default function Home() {
               Image Gallery Parallax Scroll
               <FaExternalLinkAlt className="ml-2" />
             </Link>
+            <Link
+              href="BorderAnimation/"
+              className="flex items-center justify-center rounded-xl px-7 py-3 duration-700 hover:bg-[#2e2e2e]"
+            >
+              Border Animation
+              <FaExternalLinkAlt className="ml-2" />
+            </Link>
           </div>
         </>
       )}
