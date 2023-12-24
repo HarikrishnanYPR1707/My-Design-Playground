@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         "space-mono": ["Space Mono", "monospace"],
       },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+      },
     },
   },
   plugins: [],
